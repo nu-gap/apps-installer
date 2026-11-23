@@ -24,9 +24,15 @@
   id logView;
   id infoView;
   id progressView;
+  BOOL busy;
+  NSDictionary *packageInfo;
+  NSArray *installedFiles;
+  NSTextView *fileText;
 }
+
 - (void) changeView: (id)sender;
 - (void) deletePackage: (id)sender;
 - (void) installPackage: (id)sender;
 - (void) listPackage: (id)sender;
+
 @end

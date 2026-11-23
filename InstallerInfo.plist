@@ -13,11 +13,11 @@
     NSTypes = (
     {
         NSName = "pkg";
-        NSHumanReadableName = "GNUstep Package";
-        NSUnixExtensions = ("pkg");
-        NSDOSExtensions = ("pkg");
-        NSRole = Editor;
+        NSHumanReadableName = "Application Package";
+        NSUnixExtensions = ("zip", "tar", "gz", "bz2", "xz", "tgz", "tbz2", "txz", "deb", "rpm", "pkg");
+        NSDOSExtensions = ("zip", "tar", "gz", "bz2", "xz", "tgz", "tbz2", "txz", "deb", "rpm", "pkg");
+        NSRole = Viewer;
         NSDocumentClass = PKGDocument;
     }
-    )
+    );
 }

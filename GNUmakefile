@@ -52,6 +52,7 @@ Installer_OBJC_FILES = \
 
 # The Resource files to be copied into the app's resources directory
 Installer_RESOURCE_FILES = \
+        installer_backend.py \
         English.lproj/Installer.gorm \
         English.lproj/PackageWindow.gorm \
 	Installer.app.tiff
